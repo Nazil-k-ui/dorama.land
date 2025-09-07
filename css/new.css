@@ -1,0 +1,50 @@
+.episode {
+    background-color: #302f3f;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.first {
+    display: grid;
+    justify-content: center;
+}
+.text {
+    margin-top: 20px;
+    background: linear-gradient(90deg, #29A1DF 0%, #0E8FA3 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 20px;
+}
+.border2 {
+    margin: -10px;
+    padding: 10px;
+    border: 1px solid rgb(158, 174, 207);
+    border-radius: 50px;
+}
+
+.border2:hover {
+    background: linear-gradient(
+        to right,
+    #caa359,  /* верхний цвет (с прозрачностью) */
+    rgba(199, 40, 133, 0.473)  
+    );
+}
+
+.text .tglink {
+    width: 300px;
+}
+
+.today h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(
+        to right,
+        #f37f7fbd, #944b8bd0
+    );
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
