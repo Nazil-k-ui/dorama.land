@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #21202a;
+}
+
+h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    @media (max-width:770px) {
+        font-size: 27px;
+    }
+    @media (max-width:580px) {
+        font-size: 21px;
+    }
+}
+
+.container{
+    width: 100%;
+    max-width: 975px;
+    margin: 0 auto;
+    box-sizing: border-box
+}
+.content {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
